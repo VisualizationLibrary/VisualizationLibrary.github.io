@@ -14,7 +14,5 @@ function loadjscssfile(filename, filetype) {
 		document.getElementsByTagName("head")[0].appendChild(fileref);
 	}
 }
-
 loadjscssfile("css/referencecss/bootstrap.min.css","css");
 loadjscssfile("css/publiccss/base.css","css");
-loadjscssfile("css/library.css","css");

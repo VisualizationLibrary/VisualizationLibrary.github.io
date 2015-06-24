@@ -30,3 +30,10 @@ ul,li,p{
 	line-height: 40px;
 	text-align: center;
 }
+.map{
+	background: white;}
+#mapChart{
+	width: 800px;
+	height: 420px;
+	border: 1px solid #ccc;
+}
