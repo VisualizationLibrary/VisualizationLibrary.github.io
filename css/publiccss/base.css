@@ -194,11 +194,12 @@ a:hover {
 }
 .pageScroll {
 	position: fixed !important;
-	top: 42.5%;
+	top: 46%;
 	left: 50%;
 	margin-top: -250px;
 	width: 167px;
 	height: 600px;
+	text-align: center;
 	overflow-y: auto;
 }
 .pageScroll.left {
