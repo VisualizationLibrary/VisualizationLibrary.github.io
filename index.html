@@ -4,20 +4,10 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>组件库</title>
-		<link rel="stylesheet" href="css/referencecss/bootstrap.min.css" />
-		<link rel="stylesheet" href="css/publiccss/base.css" />
-		<link rel="stylesheet" href="css/library.css" />
-		<script src="js/refrencejs/jquery-2.1.0.min.js"></script>
-		<script src="js/publicjs/pagescroller.min.js"></script>
-
-		<script>
-			$(document).ready(function() {
-				var navLabel = new Array('简要介绍', '文档', '列表', "地图", '饼图', '饼图', '漏斗图', '图片滑动', '列表滑动', "下拉框", '模态窗口', '分页', '折线图', '导航', "按钮", '雷达图');
-				$('#main').pageScroller({
-					navigation: navLabel
-				});
-			});
-		</script>
+		<script src="js/refrencejs/jquery-2.1.0.min.js" ></script>
+		<script src="js/publicjs/loadjscssfile.js" ></script>
+		<script src="js/publicjs/pagescroller.min.js" ></script>
+		<script src="js/publicjs/common.js" ></script>
 	</head>
 
 	<body>
@@ -28,6 +18,7 @@
 					<h1>简要介绍</h1>
 					<label>数据可视化组件库中的图表 是基于Echarts 进行二次封装,在使用此组件库是 请务必引入echarts-all.js 保证组件正常显示。</label>
 					<label>组件库的其他组件基于 jquery 开发,请务必请用jquery.2.1以上版本。</label>
+					<label>源码托管在 : <a href="https://github.com/VisualizationLibrary">Github</a></label>
 				</div>
 				<div class="section">
 					<h1>文档</h1>
@@ -35,64 +26,8 @@
 				</div>
 				<div class="section">
 					<h1>列表</h1>
-					<!--销量排行-->
-					<div class="list">
-						<p>销量排行</p>
-						<ul class="line">
-							<li>排序</li>
-							<li>中烟</li>
-							<li>销量</li>
-							<li>同比</li>
-						</ul>
-						<ul>
-							<li>01</li>
-							<li>红塔集团</li>
-							<li>50</li>
-							<li>12%</li>
-						</ul>
-						<ul>
-							<li>02</li>
-							<li>上海中烟</li>
-							<li>50</li>
-							<li>12%</li>
-						</ul>
-						<ul>
-							<li>03</li>
-							<li>河南中烟</li>
-							<li>50</li>
-							<li>12%</li>
-						</ul>
-						<ul>
-							<li>04</li>
-							<li>江苏中烟</li>
-							<li>50</li>
-							<li>12%</li>
-						</ul>
-						<ul>
-							<li>05</li>
-							<li>河北中烟</li>
-							<li>50</li>
-							<li>12%</li>
-						</ul>
-						<ul>
-							<li>06</li>
-							<li>江西中烟</li>
-							<li>50</li>
-							<li>12%</li>
-						</ul>
-						<ul>
-							<li>07</li>
-							<li>山东中烟</li>
-							<li>50</li>
-							<li>12%</li>
-						</ul>
-						<ul>
-							<li>08</li>
-							<li>湖南中烟</li>
-							<li>50</li>
-							<li>12%</li>
-						</ul>
-					</div>
+					<div class="listSampleGraph"></div>
+					<xmp class="listsourceCode"></xmp>
 				</div>
 				<div class="section">
 					<h1>地图</h1>

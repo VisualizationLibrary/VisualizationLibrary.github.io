@@ -74,6 +74,7 @@ a:hover {
 	border-bottom: 1px solid #ccc;
 }
 .section label {
+	width: 100%;
 	margin-top: 30px;
 	font-size: 15px;
 	color: #888;
@@ -125,9 +126,7 @@ a:hover {
 	-webkit-border-radius: 13px;
 	-moz-border-radius: 13px;
 	border-radius: 13px;
-	background: #ffffff;
-	/* Old browsers */
-	
+	background: #ffffff;	
 	border-color: #ddd;
 }
 .dark .topNavLink.active a {
@@ -231,16 +230,12 @@ li.scrollNav.active a {
 	color: white;
 	font-weight: bold;
 }
-.source_code{
-	float: left;
-	width: 500px;
-	height: 450px;
-	border: 1px solid #ccc;
-	margin-left: 60px;
-	background: white;
-}
 xmp{
-	height: 450px;
+	float: left;
+	border: 1px solid #ccc;
+	width: 500px;
+	height: 400px;
 	overflow-y: auto;
-	text-align: left;
+	margin-left: 50px;
+	background: white;
 }
