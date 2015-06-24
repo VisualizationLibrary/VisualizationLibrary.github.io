@@ -249,4 +249,3 @@ var mapOption = {
 		}]
 	}]
 };
-

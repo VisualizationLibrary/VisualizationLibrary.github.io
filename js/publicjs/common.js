@@ -5,9 +5,9 @@ $(document).ready(function() {
 	});
 });
 
-$(document).ready(function(){
-	$(".listSampleGraph").load("sourceCode/list.html"); 
-	$(".listSourceCode").load("sourceCode/list.html"); 
-	$(".mapSampleGraph").load("sourceCode/map.html"); 
-	$(".mapSourceCode").load("sourceCode/map.html"); 
-}); 
+$(document).ready(function() {
+	$(".listSampleGraph").load("sourceCode/list.html");
+	$(".listSourceCode").load("sourceCode/list.html");
+	$(".mapSampleGraph").load("sourceCode/map.html");
+	$(".mapSourceCode").load("sourceCode/map.html");
+});

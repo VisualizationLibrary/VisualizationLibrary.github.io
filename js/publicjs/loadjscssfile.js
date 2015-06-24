@@ -1,4 +1,3 @@
-// js css 动态加载器
 function loadjscssfile(filename, filetype) {
 
 	if (filetype == "js") {

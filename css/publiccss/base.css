@@ -80,10 +80,10 @@ a:hover {
 	color: #888;
 	font-weight: normal;
 }
-.section h1{
+.section h1 {
 	margin-bottom: 30px;
 }
-.line{
+.line {
 	border-bottom: 1px solid #ddd;
 }
 .topNav {
@@ -126,7 +126,7 @@ a:hover {
 	-webkit-border-radius: 13px;
 	-moz-border-radius: 13px;
 	border-radius: 13px;
-	background: #ffffff;	
+	background: #ffffff;
 	border-color: #ddd;
 }
 .dark .topNavLink.active a {
@@ -231,25 +231,22 @@ li.scrollNav.active a {
 	color: white;
 	font-weight: bold;
 }
-.section div{
+.section div {
 	float: left;
 }
-.listSourceCode{
+.listSourceCode {
+	overflow-y: auto;
 	float: left;
-	border: 1px solid #ccc;
 	width: 500px;
 	height: 400px;
-	overflow-y: auto;
 	margin-left: 50px;
+	border: 1px solid #ccc;	
 	background: white;
 }
-.mapSourceCode{
+.mapSourceCode {
 	float: left;
-	margin-left: 30px;
 	width: 100px;
 	height: 400px;
+	margin-left: 30px;
 	border: 1px solid red;
 }
-
-
-
